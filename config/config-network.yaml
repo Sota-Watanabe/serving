@@ -21,6 +21,8 @@ metadata:
     serving.knative.dev/release: devel
 
 data:
+  istio.sidecar.includeOutboundIPRanges: "*"
+  clusteringress.class: "istio.ingress.networking.knative.dev"
   _example: |
     ################################
     #                              #
